@@ -1,15 +1,15 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
     Switch,
-    Route
+    Route,
+    HashRouter
 } from 'react-router-dom';
 import Station from './station';
 import Weather from './weather';
 
 function RouteManager() {
     return (
-        <Router>
+        <HashRouter>
             <Switch>
                 <Route path="/weather/:stationId">
                     <Weather />
@@ -18,7 +18,7 @@ function RouteManager() {
                     <Station />
                 </Route>
             </Switch>
-        </Router>
+        </HashRouter>
     );
 }
 
