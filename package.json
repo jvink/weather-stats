@@ -20,7 +20,7 @@
     "react-three-fiber": "^4.0.7",
     "react-use": "^13.16.1",
     "react-use-gesture": "^6.0.14",
-    "three": "^0.112.1"
+    "three": "^0.137.0"
   },
   "scripts": {
     "start": "react-scripts start",
